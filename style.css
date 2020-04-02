@@ -52,17 +52,305 @@ header .inner-header {
     padding: 16px;
     margin-bottom: 10px;
     transition: 0.6s;
+    border-radius: 5px;
+    text-align: center;
+    width: 10%;
 }
 
 .inner-header nav a:hover {
-    background-color: aliceblue;
+    font-weight: bold;
+    background: #ecf0f1;
     color: #2d3436;
-    border-radius: 50%;
-    
+    border-radius: 20px;
 }
 
 .activities-main {
     width: 100%;
+}
+
+.section-contact {
+    background: #2d3436;
+    margin: 80px auto 50px;
+    padding-bottom: 30px;
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 12);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.section-contact .container-block {
+    background-color: #ffee55;
+    padding: 3px;
+    width: 27%;
+    border-radius: 5px;
+    margin: 0 auto;
+    transition: 1s;
+}
+
+.section-contact label {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 40px 0 20px;
+}
+
+.section-contact:hover .container-block {
+    width: 40%;
+}
+
+.section-contact .image-form {
+    /*border: 1px solid blue;*/
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 12);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.section-contact .image-form figure {
+    /*border: 1px solid red;*/
+    width: 40%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 12);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    border-right: 1px solid #111;
+}
+
+.image-form figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.image-form .form-contact {
+    text-align: center;
+    width: 60%;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.image-form .form-contact button {
+    margin-top: 15px;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    color: #ddd;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.image-form .form-contact button:hover {
+    box-shadow: 0 0 6px 2px #ffee55;
+}
+
+.image-form .form-contact .contact-form-text {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+    margin: 7px auto;
+    padding: 20px 40px;
+    border: 0;
+    background: #111;
+    color: #ddd;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.form-contact .input-group {
+    display: flex;
+}
+
+.form-contact .input-group input {
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 40px;
+    border: 0;
+    background: #111;
+    color: #ddd;
+    font-size: 16px;
+    transition: 0.5s;
+    text-transform: capitalize;
+}
+
+.form-contact .input-group input:focus {
+    box-shadow: 0 0 6px 2px #ffee55;
+}
+
+.form-contact .input-group input+input {
+    padding: 25px;
+    width: 20%;
+    margin-left: 7px;
+    text-transform: uppercase;
+}
+
+.image-form .form-contact .contact-form-text:focus {
+    box-shadow: 0 0 6px 2px #ffee55;
+}
+
+.form-contact textarea {
+    padding: 0;
+    padding: 10px 20px;
+    resize: none;
+    height: 150px;
+}
+
+.form-contact fieldset {
+    background: #111;
+    border-radius: 10px;
+    border: none;
+    transition: 0.5s;
+}
+
+.form-contact fieldset:hover {
+    box-shadow: 0 0 6px 2px #ffee55;
+}
+
+.form-contact h3 {
+    padding: 5px 20px;
+    color: #ddd;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-contact fieldset .container-checkbox {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-contact fieldset .container-checkbox .checkbox-option {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.container-checkbox .checkbox-option label {
+    font-weight: 100;
+    font-size: 12px;
+    padding: 0;
+    padding-left: 5px;
+}
+
+.section-exercicios {
+    background: white;
+    border: 1px solid white;
+}
+
+.section-exercicios .infos-exercicios {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #2d3436;
+    font-size: 36px;
+    font-weight: 100;
+    line-height: 50px;
+}
+
+.section-exercicios .infos-exercicios .container-infos {
+    border: 1px solid white;
+}
+
+.container-infos h3 {
+    text-shadow: 1px 1px 2px #2d3436;
+    text-align: center;
+    padding: 30px;
+    margin: 5% 10% 2%;
+}
+
+.container-infos h3 strong {
+    color: #ffee55;
+    text-shadow: 2px 2px 3px black;
+}
+
+.container-infos p {
+    text-transform: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 20px;
+    line-height: normal;
+    font-size: 14px;
+    font-weight: 500;
+    width: 55%;
+}
+
+.section-exercicios .container-exercicio {
+    /*only border-top and bottom 1px solid*/
+    width: 90%;
+    text-align: center;
+    font-weight: 100;
+    padding: 20px;
+    color: #2d3436;
+    margin: 20px auto 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 12);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.container-exercicio h3 {
+    font-size: 42px;
+    padding: 20px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #2d3436;
+}
+
+.container-exercicio figure {
+    padding: 20px;
+}
+
+.container-exercicio figure iframe {
+    border-radius: 5px;
+    width: 1000px;
+    height: 500px;
+}
+
+.container-exercicio figure figcaption {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.container-exercicio a {
+    color: #2d3436;
+    width: 25%;
+    margin: 0 auto;
+    display: block;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 7px;
+    border: 1px solid #2d3436;
+    border-radius: 14px;
+    transition: 0.8s;
+}
+
+.container-exercicio a:hover {
+    background: #2d3436;
+    color: aliceblue;
 }
 
 .activities-main .section-playlist {
@@ -78,6 +366,7 @@ header .inner-header {
 }
 
 .container-playlist .container-title-playlist {
+    padding: 20px 0 0;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -273,7 +562,7 @@ audio {
 .navigation-activities {
     height: 100%;
     width: 100%;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 }
 
 .navigation-activities h1 {
@@ -289,9 +578,8 @@ audio {
     justify-content: space-evenly;
     align-items: center;
     background-color: white;
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
-   
 }
 
 .navigation-figure {
@@ -302,7 +590,7 @@ audio {
 }
 
 .navigation-figure:hover {
-    border: 1px solid #2d3436;
+    border-bottom: 1px solid #2d3436;
 }
 
 .navigation-figure figcaption {
@@ -316,7 +604,6 @@ audio {
 }
 
 .navigation-figure a img {
-    
     margin: 5px;
     padding: 5px;
 }

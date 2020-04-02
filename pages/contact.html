@@ -2,29 +2,266 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Spurred Fitness - Contact</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <script defer src="./js/jquery-3.4.1.min.js"></script>
+
+  <title>Spurred Fitness</title>
 </head>
 
 <body>
   <header>
-      <div class="inner-header">
-        <figure class="figure-logo">
-            <img src="./images/logo.png" alt="">
-        </figure>
-        <nav class="navigation-header">
-            <a href="">home</a>
-            <a href="">músicas</a>
-            <a href="">aulas</a>
-            <a href="">contato</a>
-        </nav>
-      </div>     
+    <div class="inner-header">
+      <figure class="figure-logo">
+        <img src="../images/logo.png" alt="">
+      </figure>
+      <nav class="navigation-header">
+        <a href="../index.html">home</a>
+        <a href="./music.html">músicas</a>
+        <a href="./classes.html">aulas</a>
+        <a href="#">contato</a>
+      </nav>
+    </div>
   </header>
-  <main>
+  <main class="activities-main">
+
+    <section class="section-contact">
+      <label for="block-bar">Contate-nos</label>
+      <div id="block-bar" class="container-block"></div>
+      <div class="image-form">
+        <figure>
+          <img src="../images/background-form/form-bg2.jpg" alt="">
+        </figure>
+        <form class="form-contact">
+          <input type="text" class="contact-form-text" placeholder="Seu nome">
+          <input type="email" class="contact-form-text" placeholder="Seu email">
+          <input type="tel" class="contact-form-text" placeholder="Seu telefone">
+          <div class="input-group">
+            <input type="text" placeholder="Cidade">
+            <input type="text" placeholder="UF">
+          </div>
+          <textarea name="textarea" id="" class="contact-form-text" placeholder="Dúvidas ou Sugestões">
+
+          </textarea>
+          <h3>Por favor, nos informe sua(s) modalidades de interesse</h3>
+          <fieldset>
+            <div class="container-checkbox">
+              <div class="checkbox-option">
+                <input type="checkbox" id="natacao_id">
+                <Label for="natacao_id">Natação</Label>
+              </div>
+              <div class="checkbox-option">
+                <input type="checkbox" id="musculacao_id">
+                <Label for="musculacao_id">Musculação</Label>
+              </div>
+              <div class="checkbox-option">
+                <input type="checkbox" id="aerobicos_id">
+                <Label for="aerobicos_id">Aeróbicos</Label>
+              </div>
+              <div class="checkbox-option">
+                <input type="checkbox" id="ioga_id">
+                <label for="ioga_id">Ioga</label>
+              </div>
+              <div class="checkbox-option">
+                <input type="checkbox" id="danca_id">
+                <label for="danca_id">Dança</label>
+              </div>
+              <div class="checkbox-option">
+                <input type="checkbox" id="artesmarciais_id">
+                <label for="artesmarciais_id">Artes Marciais</label>
+              </div>
+              <div class="checkbox-option">
+                <input type="checkbox" id="pilates_id">
+                <label for="pilates_id">Pilates</label>
+              </div>
+            </div>
+          </fieldset>
+
+          <button>enviar</button>
+        </form>
+      </div>
+
+    </section>
 
   </main>
+  <footer>
+
+    <div class="main-footer">
+      <div class="logo-footer">
+        <figure>
+          <img src="../images/logo.png" alt="">
+        </figure>
+      </div>
+
+      <div class="links-footer">
+        <div class="links-column">
+          <h3>institucional</h3>
+
+          <ul>
+            <li>
+              <a href="">Conceito</a>
+            </li>
+            <li>
+              <a href="">Investidores</a>
+            </li>
+            <li>
+              <a href="">FAQ</a>
+            </li>
+            <li>
+              <a href="">Edital Spurred Fitness</a>
+            </li>
+          </ul>
+        </div>
+        <div class="links-column">
+          <h3>Planos</h3>
+
+          <ul>
+            <li>
+              <a href="">Planos</a>
+            </li>
+            <li>
+              <a href="">Contratos</a>
+            </li>
+          </ul>
+        </div>
+        <div class="links-column">
+          <h3>Corporativo</h3>
+
+          <ul>
+            <li>
+              <a href="">Imprensa</a>
+            </li>
+            <li>
+              <a href="">Quero ser um franqueado</a>
+            </li>
+            <li>
+              <a href="">Divulgue sua marca</a>
+            </li>
+            <li>
+              <a href="">Indique um ponto</a>
+            </li>
+            <li>
+              <a href="">Trabalhe conosco</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="links-column">
+          <h3>Siga a Spurred Fitness</h3>
+
+          <ul class="social-links">
+            <li>
+              <a href="">
+                <img src="../icons/social/icons8-facebook-32.png" alt="">
+                <strong>
+                  Facebook
+                </strong>
+              </a>
+            </li>
+
+            <li>
+              <a href="">
+                <img src="../icons/social/icons8-instagram-32.png" alt="">
+                <strong>
+                  Intagram
+                </strong>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="../icons/social/icons8-youtube-32.png" alt="">
+                <strong>
+                  Youtube
+                </strong>
+              </a>
+            </li>
+            <li>
+              <a href="https://open.spotify.com/playlist/2LUNG4f7l1DypEe5Vv1PvQ?si=MgTcy2pXRDaUMGzLODA5wA">
+                <img src="../icons/social/icons8-spotify-30.png" alt="">
+                <strong>
+                  Spotify
+                </strong>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="../icons/social/icons8-twitter-32.png" alt="">
+                <strong>
+                  Twitter
+                </strong>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="infos-footer">
+        <h3>Informações importantes</h3>
+        <p>
+          * Todo o conteúdo projetado nesse site é de estado meramente ilustrativo, não sendo verídico nenhuma das
+          informações mostradas aqui.
+          Os únicos objetivos desse projeto é melhorar minhas habilidades como desenvolvedor front-end e me promover
+          profissionalmente.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="about-author">
+      <div class="personal-infos">
+        <h4>Esse site foi projetado por: Gustavo Henrique Ribeiro Dias</h4>
+        <strong>rgm: 19993692</strong>
+      </div>
+    </div>
+    <div class="container-social-media">
+      <div class="social-media">
+        <figure>
+          <a href="https://twitter.com/Guribeir">
+            <img src="../icons/social/icons8-twitter-32.png" alt="">
+          </a>
+        </figure>
+        <figure>
+          <a href="https://www.instagram.com/gustavhrd/?hl=pt-br">
+            <img src="../icons/social/icons8-instagram-32.png" alt="">
+          </a>
+        </figure>
+        <figure>
+          <a href="https://github.com/Guribeiro">
+            <img src="../icons/social/icons8-github-32.png" alt="">
+          </a>
+        </figure>
+        <figure>
+          <a href="https://www.linkedin.com/in/gustavo-henrique-ribeiro-b58385184/">
+            <img src="../icons/social/icons8-linkedin-32.png" alt="">
+          </a>
+        </figure>
+        <figure>
+          <a href="https://www.facebook.com/gustavo.ribeiro.58173">
+            <img src="../icons/social/icons8-facebook-32.png" alt="">
+          </a>
+        </figure>
+      </div>
+    </div>
+  </footer>
+  <!--
+  <script>
+    $(document).ready(function () {
+      $('a[href*=//]:not(href=//#)').on('click', function () {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.substr(1) + ']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false
+        }
+      });
+    });
+    
+  </script>
+-->
 </body>
 
 </html>
